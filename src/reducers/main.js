@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
 import movieList from './movieList.js';
+import inputField from './inputFieldReducer.js';
 
 //var rootReducer = combineReducers({currentVideo : currentVideo ,videoList: videoList});
-var rootReducer = combineReducers({movieList: movieList});
+var rootReducer = combineReducers({movieList: movieList, inputField: inputField});
 
 //TODO: define the root reducer for this app
 

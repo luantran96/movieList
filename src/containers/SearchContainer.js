@@ -3,16 +3,6 @@ import Search from './../components/Search.js';
 import { connect } from 'react-redux';
 import handleVideoSearch from '../actions/handleSearch.js';
 
-// const mapStateToProps = (state) => {
-
-//     //console.log(state);
-
-//   return {
-//     video: state.currentVideo,
-//     videos: state.videoList    
-//     }
-// };
-
 const mapDispatchToProps = (dispatch) => {
 
    return {     
@@ -32,4 +22,4 @@ var SearchContainer = connect(null, mapDispatchToProps)(Search);
 
 
 
-export default SearchContainer;
+export default SearchContainer;	

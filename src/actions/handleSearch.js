@@ -13,8 +13,11 @@ var handleSearch = (q) => {
           matchedMovies.push(movie);
         }
     });
-    
-      dispatch(updateMovieList(matchedMovies));
+
+      	dispatch(updateMovieList(matchedMovies));
+      
+
+      
   };  
   
 };
